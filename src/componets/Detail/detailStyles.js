@@ -64,6 +64,7 @@ export const TrailerButton = styled(PlayButton)`
     border: 1px solid rgb(249, 249, 249);
     color: rgb(249, 249, 249);
     text-transform: uppercase;
+    transition: all 300ms ease;
 `
 export const AddButton = styled.button`
     cursor: pointer;
@@ -99,5 +100,5 @@ export const Description = styled.div`
     font-size: 20px;
     margin-top: 16px;
     color: rgb(249, 249, 249);
-    width: 50%;
+    max-width: 55%;
 `
