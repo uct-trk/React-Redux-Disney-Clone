@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import { Nav, Logo, NavMenu, UserImg } from './headerStyle'
 
 const Header = () => {
@@ -6,10 +7,12 @@ const Header = () => {
         <Nav>
            <Logo src="/images/logo.svg"/>
            <NavMenu>
+               <Link style={{color:"white", textDecoration:"none"}} to="/">
                 <a>
                     <img src="/images/home-icon.svg"/>
                     <span>HOME</span>
                 </a>
+                </Link>
                 <a>
                     <img src="/images/search-icon.svg"/>
                     <span>SEARCH</span>
