@@ -1,11 +1,16 @@
 import React from 'react'
 import ImgSlider from '../ImgSlider/ImgSlider'
+import Movies from '../Movies/Movies'
+import Viewers from '../Viewers/Viewers'
 import { Container } from './homeStyle'
+
 
 const Home = () => {
     return (
         <Container>
             <ImgSlider/>
+            <Viewers/>
+            <Movies/>
         </Container>
     )
 }
